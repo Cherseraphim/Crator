@@ -1,0 +1,15 @@
+{
+  "name": "tribeframework",
+  "version": "1.0.0",
+  "description": "test automation framework for community",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress run --headless --browser electron"
+  },
+  "author": "Kofi Quaicoe",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+    
+  }
+}
