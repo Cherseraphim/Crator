@@ -7,7 +7,7 @@ module.exports = defineConfig({
     },
 
       defaultCommandTimeout:25000,
-      baseUrl: 'https://macallan-app-qa.tribehome.com/',
+      baseUrl: '',
       chromeWebSecurity: false,
       env: {
         username: '',

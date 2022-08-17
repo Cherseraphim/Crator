@@ -22,11 +22,14 @@ Install Docker
 
 run 'npm i', from root of project '/tribeFramework'
 
-Update the './cypress.config.js' under 'env' object,with user account credentials needed to log into the site.
+Update the './cypress.config.js' under 'env' object,with user account credentials needed to log into the site, as well as the test site Url
+
 
 This file can be configured for different accounts and different environments.
 
 ie.
+...
+baseUrl: 'test site url',
 env: {
         username: 'testUser',
         password: 'testpassword'
