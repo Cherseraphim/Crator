@@ -38,9 +38,11 @@ env: {
 
 ## Run the tests 🔥 
 
-To run as a stand alone: run 'npx cypress open'
+To run and view results in the browser: run 'npx cypress open'
+-click on configured e2e configuration
+-click on the toddlerAmenity spec file
 
-With docker image:
+With docker image(tests are run in a headless mode):
 Run 'chmod u+x ./run.sh' to make the file executable.  For windows users, run from a windows terminal emulator or some related tool. 
 Then run './run.sh' to start tests
 The Docker container and image are removed after test run.
