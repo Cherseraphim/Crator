@@ -1,6 +1,6 @@
 
 # Tribe sample test automation Framework
-The sample farmework automates booking the toddler amenity.
+The sample framework automates booking the toddler amenity.
 
 For this framework I chose Cypress because apart from being great for unit,integrated and end-to-end testing it's architecture allows for fast and consistent tests. Configuration is also pretty easy , and also ustilizes the flexible,simple mocha test framework and chai assertion framework . It also supports firefox and chrome related browsers. In the case of mocks and stubs, the popular sinon library is incorporated within the cypress framework.
 API testing can also be achieved Cypress.
