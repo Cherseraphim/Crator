@@ -17,9 +17,8 @@ I could have also represented the locators as seperate functions or classes, but
 ## Get Started 🚀  
 Install Docker
 
-Edit the './cypress.config.js' under 'env' object, to
-have the user account credentials needed to log into the site.
-This can be configured for different accounts and different environments.
+Update the './cypress.config.js' under 'env' object,with user account credentials needed to log into the site.
+This file can be configured for different accounts and different environments.
 
 ie.
 env: {

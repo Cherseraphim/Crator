@@ -10,8 +10,8 @@ module.exports = defineConfig({
       baseUrl: 'https://macallan-app-qa.tribehome.com/',
       chromeWebSecurity: false,
       env: {
-        username: 'testautomation.exercise@tribetest.tribehome.test',
-        password: '3!n3Deg&vR7@'
+        username: '',
+        password: ''
       }
       
   
