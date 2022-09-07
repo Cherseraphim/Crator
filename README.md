@@ -1,6 +1,6 @@
 
-# Tribe sample test automation Framework
-The sample framework automates booking the toddler amenity.
+# Relish sample test automation Framework
+The sample framework loging into app.
 
 For this framework I chose Cypress because apart from being great for unit,integrated and end-to-end testing it's architecture allows for fast and consistent tests. Configuration is also pretty easy , and also ustilizes the flexible,simple mocha test framework and chai assertion framework . It also supports firefox and chrome related browsers. In the case of mocks and stubs, the popular sinon library is incorporated within the cypress framework.
 API testing can also be achieved Cypress.
@@ -20,7 +20,7 @@ I could have also represented the locators as seperate functions or classes, but
 
 Install Docker
 
-run 'npm i', from root of project '/tribeFramework'
+run 'npm i', from root of project '/relish'
 
 Update the './cypress.config.js' under 'env' object,with user account credentials needed to log into the site, as well as the test site Url
 
